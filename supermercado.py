@@ -23,6 +23,3 @@ else:
     print(f"Valor total bruto: {valor}")
     print(f"valor total con descuento: {descuento}")
     print("el envio es gratis")
-
-
-
