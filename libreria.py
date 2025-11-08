@@ -17,4 +17,3 @@ elif persona == "si" and tlDescuento != cupon:
 else:
     print("El cupon no aplica")
     print(f"el valor total es del libro es de: ${libro}")
-
