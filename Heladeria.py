@@ -1,3 +1,13 @@
+"""4. Heladería “Frosty” — Sabor y topping
+Sabores y precios:
+
+chocolate → $4.000
+vainilla → $3.500
+Opcional: topping cuesta $1.000.
+
+Si el usuario ingresa un sabor que no existe, mostrar "Sabor no disponible".
+Si el sabor es válido, preguntar si quiere topping y calcular total."""
+
 helado = input("elige un sabor de helado (chocolate/vainilla)").lower()
 
 if helado == "chocolate":

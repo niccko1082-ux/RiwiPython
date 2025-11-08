@@ -1,3 +1,16 @@
+"""9. Supermercado “AhorroMax” — Descuentos y envío
+Cada producto cuesta $2.000.
+
+Reglas:
+
+30 unidades → 15% descuento
+
+10 unidades → 5% descuento
+
+Si el total después del descuento es < $50.000 → agregar $5.000 de envío
+Calcular total final."""
+
+
 producto = 2000
 
 cantidad = int(input("Ingresa la cantidad de de productos a comprar: "))
