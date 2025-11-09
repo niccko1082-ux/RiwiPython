@@ -17,7 +17,7 @@ if cantidad <= 0:
 elif cantidad < 10:
     descuento = camisa * cantidad
 
-elif cantidad >= 10 and cantidad < 30:
+elif cantidad >= 10 and cantidad < 50:
     total = camisa * cantidad
     descuento = total - (total * 0.12)
 else:
