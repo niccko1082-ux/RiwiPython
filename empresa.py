@@ -1,3 +1,18 @@
+"""8. Empresa “TecnoPlus” — Evaluación compuesta
+El usuario ingresa dos notas (0.0 - 5.0):
+
+Prueba técnica (70%)
+Prueba lógica (30%)
+Cálculo: nota_final = (tecnica * 0.7) + (logica * 0.3)
+
+Condiciones:
+
+nota_final ≥ 3 → “Aprobado”
+2 ≤ nota_final < 3 → “Revisión”
+< 2 → “Reprobado”
+Validar que las notas estén en rango."""
+
+
 tecnica = 0.7
 logica = 0.3
 
