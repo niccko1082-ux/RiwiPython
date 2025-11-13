@@ -31,7 +31,7 @@ for i in range(6):
     total += ahorro  # sumamos el ahorro de este mes al total acumulado
 
     if total >= 1000000:
-        print(f"¡Meta alcanzada en el mes {i + 1}! 💰")
+        print(f"¡Meta alcanzada en el mes {i + 1}!")
         break  # si ya llegamos a la meta, detenemos el ciclo
     else:
         print(f"Total acumulado hasta ahora: ${total:,}")
